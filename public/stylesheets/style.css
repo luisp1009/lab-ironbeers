@@ -1,0 +1,91 @@
+body {
+    background-color: lightgrey;
+    margin: 0 auto;
+
+}
+
+.beerscontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 40px
+}
+
+.beerdetails {
+    width: 30%;
+    margin: auto;
+    
+
+}
+
+.description{
+    width: auto;
+    
+}
+
+.tagline{
+    width: auto;
+    color:darkgrey;
+}
+
+.beers {
+    width: 5vw;
+
+}
+.random{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+ .name{
+    width: auto;
+    
+ }
+
+ nav {
+    background-color:#0096FF;
+    display: flex;
+    justify-content: space-between;
+    
+ }
+ 
+ a {
+    color: white;
+    text-decoration:  none;
+    margin-right: 20px;
+    margin-left: 20px;
+    float: left;
+    
+ }
+
+ li {
+    list-style: none;
+    display: inline;
+   
+ }
+
+ img {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    margin: 50px auto;
+ }
+
+ .buttons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+ }
+
+ button a{
+    padding: 5px;
+    background-color: #0096FF;;
+ }
+ button{
+    background-color: #0096FF;
+    border: none;
+    border-radius: 5px;
+ }
